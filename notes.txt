@@ -1,0 +1,22 @@
+YOU CAN USE MACHINE LEARNING IN CLIP SWITCHING WITH SOUND
+You can train the nn on other motivation videos and make a function that finds the clip switch mind recording the points wher most of pixel changes. Then you can send this data to nn with the sound data which will predict when to clip change based on the sound.
+
+Keep a really good and motivating name for your youtube channel, like Ben Lionel Scott
+
+We would be making money through this project in a long term, so once the project prototype is working each module can then be improved or replaced with a better module like in start we can keep any cheap speach-to-text module for generating subtitles but once the prototype is working, it can be replaced with Google Speech-to-Text even it asks for the money because in the long run we will be making money from the project with a proper financial planning.
+
+For start maybe you can just use videos that already has subtitles as your source video like these -
+https://www.youtube.com/watch?v=0cwtNOq_k4w&ab_channel=BenLionelScott
+and download those subtitles using subtitle.to - https://downsub.com/ without needing to invest in google speech-to-text
+
+For thumbnail generator you can get a motivational image fetcher module and write a small quote that is 4 - 5 words long using quote fetcher module and caption writing module, like thumbnail of this video
+https://www.youtube.com/watch?v=0cwtNOq_k4w&ab_channel=BenLionelScott
+
+Thumbnail Caption writing module will choose the best way to write text on the thumbnail image, it might have a thumbnail edit module which will check whether to dim the thumbnail or to lighten it or add preset to it to make it look good, maybe you can improve this module later with machine learning. Thumbnail Caption writing module will see which font to use to write a text (maybe randomly choose any from a good set of fonts), what would be the font-size, layout of writing, some of them can have 2 level layout, heading and sub heading like in this one
+https://www.youtube.com/watch?v=wnHW6o8WMas&t=50s&ab_channel=BenLionelScott
+
+If heading is provided it can use that else it can auto generate it using its internal module, heading generator, for starters heading generator module can have random motivation heading scraped from videos of Ben Lionel Scott or it can use gan later to generate it automatically in  case a long quote has been provided and the same title generator module can be used in video title.
+
+The quote module can either use a quote api to get the quotes or just scrape video names motivation youtube channel like this
+https://www.youtube.com/watch?v=0cwtNOq_k4w&ab_channel=BenLionelScott
+and then maybe filter the quote out and remove unnecessary things from the video names, like "WHEN LIFE BREAKS YOU".

@@ -1,0 +1,14 @@
+- Motivation Video Automation
+ - Youtube Audio Downloader Wrapper
+ - Downsub Wrapper
+ - Thumbnail Picture Downloader (exercise pictures)
+ - Thumbnail Caption Writing Module - To write cool captions on your thumbnail like on this channel https://www.youtube.com/c/BenLionelScott
+ - Thumbnail Editing Module
+ - Title Generator Module - Generate small title for a long quote if provided
+ - Motivation Clip + Multiple Audio + Subtitles = into a one video maker
+ - Youtube Uploader Wrapper
+ - Express API Endpoint to turn on the workflow, make a video and upload to youtube
+ - Configure WayScript with a cron task to send request to make a video
+ - Image Mood Classifier - to filter best image for thumbnail whose mood is intense
+
+https://developers.deepgram.com/blog/2021/11/generate-webvtt-srt-captions-nodejs/

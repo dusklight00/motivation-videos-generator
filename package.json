@@ -1,0 +1,27 @@
+{
+  "name": "motivation-videos-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "@types/progress": "^2.0.5",
+    "@types/puppeteer": "^5.4.6",
+    "canvas": "^2.9.1",
+    "dotenv": "^16.0.1",
+    "node-downloader-helper": "^2.1.1",
+    "nodemon": "^2.0.16",
+    "progress": "^2.0.3",
+    "puppeteer": "^14.4.1",
+    "ts-node": "^10.8.1",
+    "two.js": "^0.8.10",
+    "typescript": "^4.7.4",
+    "youtube-dl-exec": "^2.0.12"
+  }
+}
