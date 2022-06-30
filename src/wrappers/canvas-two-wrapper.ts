@@ -2,7 +2,7 @@ import { createCanvas, Image, loadImage } from "canvas";
 import Two from "two.js";
 import fs from "fs";
 
-class CanvasWrapper {
+class CanvasTwoWrapper {
   canvas: any;
   two: Two;
 
@@ -58,4 +58,4 @@ class CanvasWrapper {
   }
 }
 
-export default CanvasWrapper;
+export default CanvasTwoWrapper;
